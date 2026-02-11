@@ -17,6 +17,12 @@ main ul.arrivals::-webkit-scrollbar {
 body {
   background-color: black;
 }
+
+.arrivals {
+  display: flex;
+  min-height: 50vh;
+}
+
 header {
   width: 100%;
   background-color: burlywood;
