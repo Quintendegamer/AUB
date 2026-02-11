@@ -1006,12 +1006,16 @@ footer h1 {
 
 
 .arrivals li,
-.down li {
+.down li,
+.vid li {
   width: 200px;
   height: 200px;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  display: block;
 }
+
 
 
 @media (min-width: 700px) {
