@@ -1003,6 +1003,17 @@ footer h1 {
 .vid li.videe {
   display: none;
 }
+
+
+.arrivals li,
+.down li {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+
 @media (min-width: 700px) {
   .vid {
     display: grid;
